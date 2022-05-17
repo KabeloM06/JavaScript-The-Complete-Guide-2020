@@ -14,3 +14,8 @@ console.log(noNewNumbers);
 
 const yetMoreNumbers = Array.of(1, 2);
 
+const listItems = document.querySelectorAll('li');
+console.log(listItems);
+
+const arrayListItems = Array.from(listItems); // Turns listItems into a normal array
+console.log(arrayListItems);
